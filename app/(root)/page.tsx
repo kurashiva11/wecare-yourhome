@@ -32,6 +32,8 @@ export default function Home() {
        </section>
 
       # Testinomals
+      # Sticky contacts list like gmail, phone, etc.
+      # contact page to mail. 
     </>
   );
 }
