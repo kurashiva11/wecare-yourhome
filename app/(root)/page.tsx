@@ -68,7 +68,7 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. natus quod eaque doloremque ducimus quisquam asperiores?
             </p>
 
-            <Button size="lg" asChild className="button w-full sm:w-fit" >
+            <Button size="lg" asChild className="button w-full sm:w-fit text-white" >
               <Link href="#products"> Explore Now</Link>
             </Button>
           </div>
