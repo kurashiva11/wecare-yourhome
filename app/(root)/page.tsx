@@ -1,15 +1,47 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      // HERO SECTION
+       {/*  HERO SECTION */}
+       <section className="bg-primary-50 bg-dotted-pattern bg-contain py-5 md:py-10">
+        <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0 ">
 
-      // Testinomals 
-      
-      // Products
+          <div className="flex flex-col justify-center gap-8">
+            <h1 className="h1-bold"> We Care Your Home</h1>
+            <p className="p-regular-20 md:p-regular-24">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. natus quod eaque doloremque ducimus quisquam asperiores?
+            </p>
 
-      // FAQ
+            <Button size="lg" asChild className="button w-full sm:w-fit" >
+              <Link href="#products"> Explore Now</Link>
+            </Button>
+          </div>
+
+          <Image
+            src="/assets/hero-1.png" 
+            alt={"hero-page"}
+            width={1100}
+            height={1100}
+            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]"
+          />
+
+        </div>
+       </section>
+
+      {/* Testinomals  */}
+      <section id="products" className="wrapper my-8 flex flex-col gap-8 md:gap-12">
+        <h2 className="h2-bold">Trusted by <br/> Thousands of Customers.</h2>
+
+        <div className="flex flex-col w-full gap-5 md:flex-row">
+          Search
+        </div>
+      </section>
+      # Products
+
+      # FAQ
     </>
   );
 }

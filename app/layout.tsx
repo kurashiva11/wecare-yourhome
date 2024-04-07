@@ -11,6 +11,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "WeCare-YourHome",
   description: "WeCare YourHome is a platform to supply medical equipments like BPAP, CPAP.",
+  icons: {
+    icon: '/assets/logo2.png'
+  }
 };
 
 export default function RootLayout({
