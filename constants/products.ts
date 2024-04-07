@@ -1,51 +1,23 @@
 export const listOfProducts = [
     {
-    name: "machine1",
+    name: "BiPAP",
     price: 500,
     rentPerWeek: 25,
-    image: "/Capture.PNG",
-    description: "sample description"
+    image: "/assets/BiPAP_Philips.png",
+    description: "BiPAP Machine from Philips"
     },
     {
-    name: "machine2",
+    name: "CPAP",
     price: 500,
     rentPerWeek: 25,
-    image: "/Capture.PNG",
-    description: "sample description2"
+    image: "/assets/ResMedCPAP.jpg",
+    description: "CPAP from ResMed"
     },
     {
-    name: "machine3",
+    name: "Oxygen Concentrator",
     price: 600,
     rentPerWeek: 35,
-    image: "/Capture.PNG",
-    description: "sample description3"
-    },
-    {
-    name: "machine4",
-    price: 700,
-    rentPerWeek: 45,
-    image: "/Capture.PNG",
-    description: "sample description4"
-    },
-    {
-    name: "machine4",
-    price: 700,
-    rentPerWeek: 45,
-    image: "/Capture.PNG",
-    description: "sample description4"
-    },
-    {
-    name: "machine4",
-    price: 700,
-    rentPerWeek: 45,
-    image: "/Capture.PNG",
-    description: "sample description4"
-    },
-    {
-    name: "machine4",
-    price: 700,
-    rentPerWeek: 45,
-    image: "/Capture.PNG",
-    description: "sample description4"
+    image: "/assets/oxygen_concentrator_philips.jpg",
+    description: "Oxygen Concentrator."
     }
 ];
