@@ -1,6 +1,8 @@
 import { listOfProducts } from '../../../constants/products';
 import Image from "next/image";
 
+import {normalizedPath} from "../../../lib/utils";
+
 export default function Products() {
     return (
         <section id="Projects"
@@ -8,7 +10,7 @@ export default function Products() {
             {listOfProducts.map((product, idx) => (
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                     <a href="#">
-                        <Image src={product.image} alt="Modern building architecture" className="h-80 w-72 object-cover rounded-t-xl" width={80} height={72} />
+                        <Image src={normalizedPath(product.image)} alt="Modern building architecture" className="h-80 w-72 object-cover rounded-t-xl" width={80} height={72} />
                         <div className="px-4 py-3 w-72">
                             <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
                             <p className="text-lg font-bold text-black truncate block capitalize">{product.name}</p>

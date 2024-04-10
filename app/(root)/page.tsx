@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
+import {normalizedPath} from "../../lib/utils";
+
 export default function Home() {
   return (
     <>
@@ -21,7 +23,7 @@ export default function Home() {
           </div>
 
           <Image
-            src="/assets/hero-1.png" 
+            src={normalizedPath("/assets/hero-1.png")} 
             alt={"hero-page"}
             width={1100}
             height={1100}

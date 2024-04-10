@@ -4,13 +4,15 @@ import React from 'react'
 import MobileNav from './MobileNav'
 import NavItems from './NavItems'
 
+import {normalizedPath} from "../../lib/utils";
+
 const Header = () => {
   return (
     <header className="w-full border-b">
       <div className="wrapper flex items-center justify-between"> 
         <Link href='/' className='w-36'>
           <Image 
-            src="/assets/logo2.png" 
+            src={normalizedPath("/assets/logo2.png")}
             alt= "WeCareYourHome Logo" width={218} height={118}></Image>
         </Link>
 
