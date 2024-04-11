@@ -35,6 +35,9 @@ export default function Home() {
 
       # Testinomals
       # contact page to mail. 
+      # side nav bar should auto close after selecting the page.
+      # update lorem texts
+      # update products
     </>
   );
 }
